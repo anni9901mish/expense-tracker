@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import SummaryCards from "./Components/SummaryCards";
-import ExpenseForm from "./Components/ExpenseForm";
+import SummaryCards from "./Components/Summarycards";
+import ExpenseForm from "./Components/Expenseform";
 
 const ExpenseApp = () => {
   const [expenses, setExpenses] = useState([]);
